@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>SellerSmart 🚀</h1>
+  <h1>SellerSmart-Docs 🚀</h1>
   <p><em>Your All-In-One Amazon Growth Partner</em></p>
   
   <img src="./public/banner.svg" alt="SellerSmart Banner" width="100%">
@@ -14,6 +14,8 @@
 4. [Getting Started](#getting-started)
 5. [Success Stories](#success-stories)
 6. [Contact](#contact)
+7. [Contributing](#contributing)
+8. [License](#license)
 </details>
 
 
@@ -118,9 +120,18 @@
 
 <section id="getting-started">
   <h2>Getting Started 🚦</h2>
+  <h3>Prerequisites</h3>
+  <ul>
+    <li>Node.js >= 14.x</li>
+    <li>npm >= 6.x</li>
+    <li>Git</li>
+  </ul>
   <pre><code class="language-bash">
 # Clone repository
 gh repo clone sellersmart-docs
+
+# Navigate into the directory
+cd sellersmart-docs
 
 # Install dependencies
 npm ci
@@ -162,13 +173,29 @@ npm run dev</code></pre>
     <h4>Ready to dominate Amazon?</h4>
     <p>📞 <strong>Hotline:</strong> <a href="tel:+6309504469156">+63 09504469156</a></p>
     <p>📧 <strong>Email:</strong> <a href="mailto:sellsmartdev@gmail.com">sellsmartdev@gmail.com</a></p>
-    <p>🌐 <strong>Live Chat:</strong> <a href="https://sellersmart-docs.vercel.app">sellersmart.netlify.app</a></p>
+    <p>🌐 <strong>Live Chat:</strong> <a href="https://sellersmart-docs.vercel.app">sellersmart.vercel.app</a></p>
   </div>
 
   <div class="locations">
     <h4>Office Locations:</h4>
     <p>🌍 Manila · 🗽 New York · 🌉 San Francisco · 🗼 Tokyo</p>
   </div>
+</section>
+
+<section id="contributing">
+  <h2>Contributing 🤝</h2>
+  <p>We welcome contributions from the community! Please follow these steps to contribute:</p>
+  <ol>
+    <li>Fork the repository</li>
+    <li>Create a new branch for your feature or bugfix</li>
+    <li>Commit your changes</li>
+    <li>Push your branch and create a pull request</li>
+  </ol>
+</section>
+
+<section id="license">
+  <h2>License 📜</h2>
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 </section>
 
 <footer>

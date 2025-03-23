@@ -66,12 +66,12 @@
 
   <!-- Live URL -->
   <text x="350" y="350" font-family="'Lato', sans-serif" font-size="24" fill="#ffffff">
-    Live: <tspan fill="#4FD1C5">sellsmart-hub.vercel.app</tspan>
+    Live: <tspan fill="#4FD1C5">sellsmart-docs.vercel.app</tspan>
   </text>
 
   <!-- GitHub URL -->
   <text x="350" y="380" font-family="'Lato', sans-serif" font-size="24" fill="#ffffff">
-    GitHub: <tspan fill="#4FD1C5">github.com/johnwesleyquintero/sellsmart</tspan>
+    GitHub: <tspan fill="#4FD1C5">github.com/johnwesleyquintero/sellsmart-docs</tspan>
   </text>
 
   <!-- Styles -->
