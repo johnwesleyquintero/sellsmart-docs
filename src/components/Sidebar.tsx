@@ -52,6 +52,15 @@ const sidebarItems: SidebarItemType[] = [
       { title: "Responsive Layout", id: "responsive-layout" },
     ],
   },
+  {
+    title: "Operations Guides",
+    id: "operations-guides",
+    subitems: [
+      { title: "FBM Inventory Management", id: "fbm-inventory-management" },
+      { title: "FBA Department Operations", id: "fba-department-operations" },
+      { title: "Wholesale Buyer's Guide", id: "wholesale-buyers-guide" },
+    ],
+  },
 ];
 
 interface SidebarProps {

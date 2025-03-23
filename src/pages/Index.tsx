@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
@@ -636,36 +635,3 @@ code {
                       Design assets are versioned, allowing teams to access both current and previous versions of the design system.
                     </p>
                   </div>
-                  
-                  <div className="p-5 border border-neutral-700 rounded-lg bg-neutral-800/40">
-                    <h4 className="text-lg font-semibold mb-2 flex items-center">
-                      <div className="w-3 h-3 rounded-full bg-accent-500 mr-2"></div>
-                      Accessibility
-                    </h4>
-                    <p className="text-sm text-white/70">
-                      All components meet WCAG 2.1 AA standards with a minimum contrast ratio of 4.5:1 for text elements.
-                    </p>
-                  </div>
-                  
-                  <div className="p-5 border border-neutral-700 rounded-lg bg-neutral-800/40">
-                    <h4 className="text-lg font-semibold mb-2 flex items-center">
-                      <div className="w-3 h-3 rounded-full bg-brand-500 mr-2"></div>
-                      Responsive Layout
-                    </h4>
-                    <p className="text-sm text-white/70">
-                      The documentation site is built with a mobile-first approach, ensuring usability across all device sizes.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </main>
-      
-      <Footer />
-    </div>
-  );
-};
-
-export default Index;

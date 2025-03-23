@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Search } from 'lucide-react';
+import { Menu, X, Search, ExternalLink } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -50,6 +50,15 @@ const Navbar = () => {
             <Link to="/" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
               Guidelines
             </Link>
+            <a 
+              href="https://sellsmart-hub.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-sm font-medium text-brand-400 hover:text-brand-300 transition-colors flex items-center"
+            >
+              <span>Main App</span>
+              <ExternalLink className="w-3.5 h-3.5 ml-1" />
+            </a>
             <button className="text-sm font-medium text-white/90 hover:text-white transition-colors flex items-center">
               <Search className="w-4 h-4 mr-1" />
               <span>Search</span>
@@ -107,6 +116,16 @@ const Navbar = () => {
             >
               Guidelines
             </Link>
+            <a 
+              href="https://sellsmart-hub.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-xl font-medium text-brand-400 hover:text-brand-300 transition-colors flex items-center"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              <span>Main App</span>
+              <ExternalLink className="w-4 h-4 ml-1.5" />
+            </a>
           </nav>
           
           <div className="mt-auto">
