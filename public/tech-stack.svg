@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" class="project-card">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    text { font-family: 'Inter', sans-serif; }
+  </style>
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d2d" />
+      <stop offset="100%" stop-color="#1a1a1a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+
+  <!-- Main stack container -->
+  <g transform="translate(100 150)">
+    <!-- React Logo -->
+    <g transform="translate(0 0)">
+      <circle cx="60" cy="60" r="40" fill="none" stroke="#61DAFB" stroke-width="8" />
+      <path d="M60 20a40 40 0 0 1 0 80 40 40 0 0 1 0-80" fill="none" stroke="#61DAFB" stroke-width="8" transform="rotate(30 60 60)" />
+      <path d="M60 20a40 40 0 0 1 0 80 40 40 0 0 1 0-80" fill="none" stroke="#61DAFB" stroke-width="8" transform="rotate(-30 60 60)" />
+      <text x="60" y="140" fill="#fff" text-anchor="middle" font-size="24" font-weight="600">React</text>
+    </g>
+
+    <!-- TypeScript Logo -->
+    <g transform="translate(300 0)">
+      <rect x="0" y="0" width="120" height="120" rx="20" fill="#3178C6" />
+      <path d="M60 35L90 65 60 95 30 65 60 35" fill="#fff" />
+      <text x="60" y="140" fill="#fff" text-anchor="middle" font-size="24" font-weight="600">TypeScript</text>
+    </g>
+
+    <!-- Vite Logo -->
+    <g transform="translate(600 0)">
+      <path d="M60 0L120 120H0L60 0z" fill="#BD34FE" />
+      <path d="M60 40L100 120H20L60 40z" fill="#47BA87" />
+      <text x="60" y="140" fill="#fff" text-anchor="middle" font-size="24" font-weight="600">Vite</text>
+    </g>
+
+    <!-- shadcn/ui -->
+    <g transform="translate(900 0)">
+      <rect x="0" y="0" width="120" height="120" rx="20" fill="#fff" />
+      <path d="M60 30l30 60H30l30-60z" fill="#000" />
+      <text x="60" y="140" fill="#fff" text-anchor="middle" font-size="24" font-weight="600">shadcn/ui</text>
+    </g>
+
+    <!-- Tailwind CSS -->
+    <g transform="translate(460 300)">
+      <path d="M60 0l60 120H0L60 0z" fill="#38BDF8" />
+      <text x="60" y="140" fill="#fff" text-anchor="middle" font-size="24" font-weight="600">Tailwind CSS</text>
+    </g>
+  </g>
+
+  <!-- Branding header -->
+  <text x="400" y="100" fill="#fff" font-size="36" font-weight="600">SellerSmart Tech Stack</text>
+
+  <!-- Branding footer -->
+  <text x="1160" y="620" fill="#fff" text-anchor="end" font-size="18">SellerSmart Tech Stack</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" class="architecture">
+  <defs>
+    <linearGradient id="archGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3245ff">
+        <animate attributeName="stop-color" values="#3245ff; #bc52ee; #3245ff" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#bc52ee">
+        <animate attributeName="stop-color" values="#bc52ee; #3245ff; #bc52ee" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <filter id="archShadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+    
+    <style>
+      .service-node {
+        transition: transform 0.3s ease, filter 0.3s ease;
+        cursor: pointer;
+      }
+      .service-node:hover {
+        transform: scale(1.05);
+        filter: url(#archShadow);
+      }
+      .connection {
+        stroke-width: 2;
+        stroke: #4FD1C5;
+        stroke-dasharray: 5;
+        animation: flow 30s linear infinite;
+      }
+      @keyframes flow {
+        to { stroke-dashoffset: -1000; }
+      }
+    </style>
+  </defs>
+
+  <!-- Frontend Layer -->
+  <g class="layer" transform="translate(100 200)">
+    <rect class="service-node" fill="url(#archGradient)" width="120" height="60" rx="8" />
+    <text font-family="'Lato', sans-serif" fill="#fff" x="60" y="35" text-anchor="middle">Web UI</text>
+  </g>
+
+  <!-- Backend Services -->
+  <g class="layer" transform="translate(300 100)">
+    <rect class="service-node" fill="url(#archGradient)" width="140" height="60" rx="8" />
+    <text font-family="'Lato', sans-serif" fill="#fff" x="70" y="35" text-anchor="middle">API Gateway</text>
+  </g>
+
+  <!-- Database Layer -->
+  <g class="layer" transform="translate(500 200)">
+    <rect class="service-node" fill="url(#archGradient)" width="120" height="60" rx="8" />
+    <text font-family="'Lato', sans-serif" fill="#fff" x="60" y="35" text-anchor="middle">MongoDB</text>
+  </g>
+
+  <!-- Connections -->
+  <path class="connection" d="M160 230 Q 240 180 300 130" />
+  <path class="connection" d="M380 160 Q 440 200 500 230" />
+
+  <!-- Title -->
+  <text x="400" y="50" font-family="'Lato', sans-serif" font-size="24" fill="#1a365d" text-anchor="middle">
+    SellerSmart Architecture
+    <tspan font-size="14">v2.1</tspan>
+  </text>
+</svg>
