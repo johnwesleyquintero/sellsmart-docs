@@ -34,7 +34,7 @@ const Navbar = ({ className }: NavbarProps) => {
               <ExternalLink className="ml-1 h-3 w-3" />
             </a>
             <a href="#introduction" className="text-white/80 hover:text-white text-sm transition-colors">Documentation</a>
-            <a href="https://sellsmart-docs.vercel.app" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white text-sm transition-colors">GitHub</a>
+            <a href="https://github.com/johnwesleyquintero/sellsmart-docs" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white text-sm transition-colors">GitHub</a>
           </div>
         </div>
       </div>
