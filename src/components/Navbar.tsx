@@ -33,8 +33,8 @@ const Navbar = ({ className }: NavbarProps) => {
               <span>Main Web App</span>
               <ExternalLink className="ml-1 h-3 w-3" />
             </a>
-            <a href="#" className="text-white/80 hover:text-white text-sm transition-colors">Documentation</a>
-            <a href="#" className="text-white/80 hover:text-white text-sm transition-colors">GitHub</a>
+            <a href="#introduction" className="text-white/80 hover:text-white text-sm transition-colors">Documentation</a>
+            <a href="https://github.com/sellsmart/hub" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white text-sm transition-colors">GitHub</a>
           </div>
         </div>
       </div>
