@@ -11,10 +11,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-8 h-8 rounded-md bg-brand-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SS</span>
-              </div>
-              <span className="text-lg font-semibold text-white">SellSmart</span>
+              <img src="/logo.svg" alt="SellSmart logo" className="w-8 h-8" />
+              <img src="/logo.svg" alt="SellSmart logo" className="h-8 w-auto" />
             </Link>
             <p className="mt-4 text-sm text-white/70 max-w-md">
               SellSmart Design System provides consistent, accessible, and beautiful components 

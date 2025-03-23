@@ -22,3 +22,26 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment
+.env
+.env*.local
+
+# Testing
+coverage/
+junit.xml
+
+# Build tools
+.cache/
+.parcel-cache
+
+# Temp files
+*.tmp
+*.temp
+
+# Windows
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/

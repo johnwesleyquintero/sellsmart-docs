@@ -17,9 +17,7 @@ const LogoUsageSection = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
         <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40">
-          <div className="mb-4 h-16 w-16 bg-brand-500 rounded-md flex items-center justify-center">
-            <span className="text-white font-bold text-xl">SS</span>
-          </div>
+          <img src="/logo.svg" alt="SellSmart logo" className="h-16 w-16" />
           <h4 className="text-lg font-semibold mb-2">Primary Logo</h4>
           <p className="text-sm text-white/70">
             Use on white or light backgrounds. Maintain proper clearance space around the logo.
@@ -27,9 +25,7 @@ const LogoUsageSection = () => {
         </div>
         
         <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40">
-          <div className="mb-4 h-16 w-16 bg-white rounded-md flex items-center justify-center">
-            <span className="text-brand-500 font-bold text-xl">SS</span>
-          </div>
+          <img src="/logo.svg" alt="SellSmart logo" className="h-16 w-16" />
           <h4 className="text-lg font-semibold mb-2">Monochrome Logo</h4>
           <p className="text-sm text-white/70">
             Use on colored backgrounds. White version for dark backgrounds, dark version for light backgrounds.
