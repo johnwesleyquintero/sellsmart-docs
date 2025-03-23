@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
@@ -635,3 +636,182 @@ code {
                       Design assets are versioned, allowing teams to access both current and previous versions of the design system.
                     </p>
                   </div>
+                  
+                  <div className="p-5 border border-neutral-700 rounded-lg bg-neutral-800/40">
+                    <h4 className="text-lg font-semibold mb-2 flex items-center">
+                      <div className="w-3 h-3 rounded-full bg-accent-500 mr-2"></div>
+                      Accessibility
+                    </h4>
+                    <p className="text-sm text-white/70">
+                      All components meet WCAG 2.1 AA standards with a minimum contrast ratio of 4.5:1 for text elements.
+                    </p>
+                  </div>
+                  
+                  <div className="p-5 border border-neutral-700 rounded-lg bg-neutral-800/40">
+                    <h4 className="text-lg font-semibold mb-2 flex items-center">
+                      <div className="w-3 h-3 rounded-full bg-brand-500 mr-2"></div>
+                      Responsive Layout
+                    </h4>
+                    <p className="text-sm text-white/70">
+                      The documentation site is built with a mobile-first approach, ensuring usability across all device sizes.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* Operations Guides */}
+              <section id="operations-guides" className="mb-16">
+                <div className="flex items-center space-x-2 mb-8">
+                  <div className="w-10 h-10 rounded-md bg-brand-500/10 flex items-center justify-center">
+                    <div className="w-5 h-5 border-2 border-brand-500 rounded"></div>
+                  </div>
+                  <h2 className="text-3xl font-bold">Operations Guides</h2>
+                </div>
+                
+                <p className="text-white/80 mb-8">
+                  Our operations guides provide comprehensive documentation for different operational processes and workflows. These guides aim to enhance efficiency, streamline operations, and ensure consistent quality across all departments.
+                </p>
+                
+                {/* FBM Inventory Management */}
+                <section id="fbm-inventory-management" className="mb-12">
+                  <h3 className="text-2xl font-bold mb-4">FBM Inventory Management</h3>
+                  <p className="text-white/80 mb-6">
+                    This guide outlines the processes and best practices for managing FBM (Fulfilled by Merchant) inventory, with a focus on enhancing operational efficiency by 40%.
+                  </p>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Listing Management & Account Health</h4>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>Regularly audit product listings for accuracy and completeness</li>
+                      <li>Monitor account health metrics daily</li>
+                      <li>Address customer inquiries within 24 hours</li>
+                      <li>Implement automated inventory tracking systems</li>
+                      <li>Conduct weekly reconciliation of physical and digital inventory</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Process Flow</h4>
+                    <ol className="list-decimal list-inside text-white/70 space-y-2">
+                      <li>Inventory Receipt: Log all incoming inventory in the system</li>
+                      <li>Quality Control: Inspect items for damage or defects</li>
+                      <li>Listing Creation: Create or update product listings</li>
+                      <li>Inventory Storage: Organize items in designated storage areas</li>
+                      <li>Order Processing: Pick, pack, and ship orders</li>
+                      <li>Inventory Reconciliation: Regularly verify physical counts</li>
+                    </ol>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40">
+                    <h4 className="text-lg font-semibold mb-3">Enhanced Operational Efficiency</h4>
+                    <p className="text-white/70 mb-4">
+                      By implementing these best practices, teams have achieved a 40% increase in operational efficiency. Key improvements include:
+                    </p>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>30% reduction in order processing time</li>
+                      <li>50% decrease in inventory discrepancies</li>
+                      <li>25% improvement in customer satisfaction ratings</li>
+                      <li>45% reduction in shipping errors</li>
+                    </ul>
+                  </div>
+                </section>
+                
+                {/* FBA Department Operations */}
+                <section id="fba-department-operations" className="mb-12">
+                  <h3 className="text-2xl font-bold mb-4">FBA Department Operations</h3>
+                  <p className="text-white/80 mb-6">
+                    This guide provides a comprehensive overview of FBA (Fulfilled by Amazon) department operations, with a focus on training and workflow planning to streamline team productivity by 35%.
+                  </p>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Training & Workflow Planning</h4>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>Structured onboarding program for new team members</li>
+                      <li>Regular training sessions on Amazon's latest FBA policies</li>
+                      <li>Weekly workflow planning meetings</li>
+                      <li>Cross-training team members for multiple roles</li>
+                      <li>Quarterly skill assessment and development plans</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Standard Operating Procedures</h4>
+                    <ol className="list-decimal list-inside text-white/70 space-y-2">
+                      <li>Inventory Preparation: Label, package, and prep items for FBA</li>
+                      <li>Shipment Creation: Create and optimize FBA shipments</li>
+                      <li>Carrier Selection: Choose the most cost-effective shipping method</li>
+                      <li>Shipment Tracking: Monitor transit status and delivery</li>
+                      <li>Inventory Reconciliation: Verify received quantities match sent</li>
+                      <li>Performance Analysis: Track key metrics and identify improvements</li>
+                    </ol>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40">
+                    <h4 className="text-lg font-semibold mb-3">Streamlined Team Productivity</h4>
+                    <p className="text-white/70 mb-4">
+                      Implementation of these procedures has resulted in a 35% increase in team productivity, with notable improvements in:
+                    </p>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>40% increase in units processed per hour</li>
+                      <li>60% reduction in shipment preparation errors</li>
+                      <li>25% decrease in FBA reconciliation cases</li>
+                      <li>30% improvement in inventory turnover rate</li>
+                    </ul>
+                  </div>
+                </section>
+                
+                {/* Wholesale Buyer's Guide */}
+                <section id="wholesale-buyers-guide" className="mb-12">
+                  <h3 className="text-2xl font-bold mb-4">Wholesale Buyer's Guide</h3>
+                  <p className="text-white/80 mb-6">
+                    This guide is designed to improve client engagement and inventory management, with a focus on best practices to achieve a client satisfaction rate of 95%.
+                  </p>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Client Engagement & Inventory Management</h4>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>Scheduled regular check-ins with clients</li>
+                      <li>Personalized product recommendations based on sales history</li>
+                      <li>Transparent communication about inventory levels and lead times</li>
+                      <li>Proactive notification of upcoming sales opportunities</li>
+                      <li>Quarterly business reviews to assess performance and set goals</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40 mb-6">
+                    <h4 className="text-lg font-semibold mb-3">Best Practices</h4>
+                    <ol className="list-decimal list-inside text-white/70 space-y-2">
+                      <li>Market Research: Continuously analyze market trends and competition</li>
+                      <li>Supplier Evaluation: Regularly assess supplier performance and reliability</li>
+                      <li>Inventory Forecasting: Use data-driven approaches to predict demand</li>
+                      <li>Relationship Building: Develop strong relationships with suppliers and clients</li>
+                      <li>Negotiation Strategy: Implement structured approaches to price negotiation</li>
+                      <li>Risk Management: Diversify suppliers to mitigate supply chain disruptions</li>
+                    </ol>
+                  </div>
+                  
+                  <div className="p-6 border border-neutral-700 rounded-lg bg-neutral-800/40">
+                    <h4 className="text-lg font-semibold mb-3">Improved Client Satisfaction</h4>
+                    <p className="text-white/70 mb-4">
+                      Implementation of these best practices has resulted in a 95% client satisfaction rate, with improvements in:
+                    </p>
+                    <ul className="list-disc list-inside text-white/70 space-y-2">
+                      <li>85% client retention rate year-over-year</li>
+                      <li>40% increase in repeat orders from existing clients</li>
+                      <li>65% of new business coming from client referrals</li>
+                      <li>30% reduction in order cancellations due to inventory issues</li>
+                    </ul>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
