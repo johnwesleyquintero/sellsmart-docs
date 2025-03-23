@@ -61,6 +61,19 @@ const sidebarItems: SidebarItemType[] = [
       { title: "Wholesale Buyer's Guide", id: "wholesale-buyers-guide" },
     ],
   },
+  {
+    title: "Agency Framework",
+    id: "agency-framework",
+    subitems: [
+      { title: "Introduction", id: "agency-introduction" },
+      { title: "Our Services", id: "our-services" },
+      { title: "Our Web App", id: "our-web-app" },
+      { title: "Free Tools", id: "agency-free-tools" },
+      { title: "Contact Us", id: "contact-us" },
+      { title: "Client Success Stories", id: "client-success-stories" },
+      { title: "Brand Guidelines", id: "brand-guidelines" },
+    ],
+  },
 ];
 
 interface SidebarProps {
