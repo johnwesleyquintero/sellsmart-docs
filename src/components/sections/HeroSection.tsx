@@ -15,7 +15,7 @@ const HeroSection = () => {
             Design System & Documentation
           </div>
           <h1 className="text-balance text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight animate-fade-in">
-            SellSmart Docs <span className="text-gradient">Design % Documentation</span>
+            SellSmart <span className="text-gradient">Design x Docs</span>
           </h1>
           <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto text-balance animate-fade-in">
             A comprehensive guide to our design tokens, components, and principles for creating consistent and beautiful user interfaces and sellsmart's framework documentation.

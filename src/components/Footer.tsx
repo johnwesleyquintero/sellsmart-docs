@@ -11,7 +11,6 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center space-x-3">
-              <img src="/logo.svg" alt="SellSmart logo" className="w-8 h-8" />
               <img src="/logo.svg" alt="SellSmart logo" className="h-8 w-auto" />
             </Link>
             <p className="mt-4 text-sm text-white/70 max-w-md">

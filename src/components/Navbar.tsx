@@ -14,12 +14,10 @@ const Navbar = ({ className }: NavbarProps) => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <div className="h-8 w-8 bg-brand-500 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SS</span>
-              </div>
+              <img src="/logo.svg" alt="SellSmart logo" className="h-8 w-8 rounded-md" />
             </div>
             <div className="ml-4">
-              <span className="text-white font-medium text-lg">SellSmart Hub</span>
+              <span className="text-white font-medium text-lg">SellSmart Docs</span>
             </div>
           </div>
 
