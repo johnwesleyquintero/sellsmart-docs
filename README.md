@@ -22,7 +22,7 @@
 
 ## 🛠 Documentation Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Vite + Vitepress
 - **Search**: Algolia DocSearch
 - **Styling**: Tailwind CSS + shadcn/ui
 - **Markdown**: MDX with rehype plugins

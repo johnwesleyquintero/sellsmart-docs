@@ -1,7 +1,0 @@
-# Allow all crawlers
-User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://johnwesleyquintero.github.io/sitemap.xml
-
