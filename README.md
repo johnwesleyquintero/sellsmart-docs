@@ -1,216 +1,81 @@
 <div align="center">
-  <h1>SellerSmart-Docs 🚀</h1>
-  <p><em>Your All-In-One Amazon Growth Partner</em></p>
+  <img src="public/logo.svg" alt="SellSmart Docs Logo" width="200" />
+  <h1 style="background: linear-gradient(135deg, #059669 0%, #06b6d4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 20px 0; font-family: 'Inter', sans-serif; font-weight: 800;">SellSmart Documentation Hub</h1>
   
-  <img src="./public/banner.svg" alt="SellerSmart Banner" width="100%">
+  ***A modern, version-controlled documentation system with intelligent search and markdown support for technical documentation.***
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
+    <img src="public\default.svg" alt="Documentation Preview" style="width: 100%; height: auto; border-radius: 12px; padding: 1rem; background: rgba(6, 182, 212, 0.05);">
+    <img src="public\default.svg" alt="API Reference" style="width: 100%; height: auto; border-radius: 12px; padding: 1rem; background: rgba(6, 182, 212, 0.05);">
+    <img src="public\default.svg" alt="Version Control" style="width: 100%; height: auto; border-radius: 12px; padding: 1rem; background: rgba(6, 182, 212, 0.05);">
+  </div>
 </div>
 
-<details>
-<summary>📖 Table of Contents</summary>
+## 📚 Documentation Features
 
-1. [Business Transformation](#transform)
-2. [Competitive Advantages](#why-choose-us)
-3. [Technology Stack](#tech-stack)
-4. [Getting Started](#getting-started)
-5. [Success Stories](#success-stories)
-6. [Contact](#contact)
-7. [Contributing](#contributing)
-8. [License](#license)
-</details>
+- **Markdown Processing** - Extended Markdown support with custom components
+- **Version Control** - Documentation versioning with branch-based releases
+- **Smart Search** - Full-text search with semantic understanding
+- **API Reference** - Automated OpenAPI spec integration
+- **Content Validation** - CI/CD checks for broken links and formatting
+- **Multi-format Export** - PDF/EPUB generation from markdown
 
+## 🛠 Documentation Stack
 
-<section id="transform">
-  <h2>Transform Your Amazon Business with Expert Guidance</h2>
+- **Framework**: Next.js 14 (App Router)
+- **Search**: Algolia DocSearch
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Markdown**: MDX with rehype plugins
+- **Hosting**: Vercel Edge Network
+- **CI/CD**: GitHub Actions
 
-  <p><strong>SellerSmart</strong> is the premier Amazon agency combining cutting-edge technology with proven marketplace expertise to help sellers:</p>
-  <ul>
-    <li>🚀 <strong>Scale operations</strong> from startup to enterprise level</li>
-    <li>💰 <strong>Maximize profitability</strong> through data-driven strategies</li>
-    <li>📈 <strong>Dominate rankings</strong> with our proprietary optimization engine</li>
-    <li>🤝 <strong>Build supplier relationships</strong> that ensure product excellence</li>
-  </ul>
-</section>
+## 🏁 Getting Started
 
-<section id="why-choose-us">
-  <h2>Why Choose SellerSmart? 💡</h2>
+1. Clone the docs repository
+   ```bash
+   git clone https://github.com/johnwesleyquintero/sellsmart-docs.git
+   cd sellsmart-docs
+   ```
 
-  <div class="advantages">
-    <h3>🏆 Competitive Advantages</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>SellerSmart</th>
-          <th>Competitors</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Full-Service Management</td>
-          <td>✅ End-to-end solutions</td>
-          <td>❌ Partial services</td>
-        </tr>
-        <tr>
-          <td>AI-Powered Analytics</td>
-          <td>✅ Predictive insights</td>
-          <td>❌ Basic reporting</td>
-        </tr>
-        <tr>
-          <td>API Integration</td>
-          <td>✅ Real-time automation</td>
-          <td>❌ Manual processes</td>
-        </tr>
-        <tr>
-          <td>24/7 Support</td>
-          <td>✅ Dedicated account managers</td>
-          <td>❌ Ticket systems</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+2. Install documentation dependencies
+   ```bash
+   npm install
+   ```
 
-  <div class="offerings">
-    <h3>🔥 Core Offerings</h3>
-    
-    <div class="offering-card">
-      <h4>🚀 Launch Accelerator Program</h4>
-      <p><em>From product research to first sale in 30 days</em></p>
-      <ul>
-        <li>Market validation analysis</li>
-        <li>Supplier negotiation support</li>
-        <li>Launch PPC blueprint</li>
-      </ul>
-    </div>
+3. Start local development server
+   ```bash
+   npm run dev
+   ```
 
-    <div class="offering-card">
-      <h4>📈 Growth Optimization Suite</h4>
-      <p><em>Continuous performance enhancement</em></p>
-      <ul>
-        <li>AI-driven listing optimization</li>
-        <li>Dynamic repricing strategies</li>
-        <li>Review velocity management</li>
-      </ul>
-    </div>
+👩💻 Open http://localhost:3000 to access the documentation locally
 
-    <div class="offering-card">
-      <h4>🛡️ Brand Protection System</h4>
-      <p><em>Guard your Amazon presence</em></p>
-      <ul>
-        <li>IP monitoring & enforcement</li>
-        <li>Counterfeit detection</li>
-        <li>Brand registry management</li>
-      </ul>
-    </div>
-  </div>
-</section>
+## 🤝 Contributing Guidelines
 
-<section id="tech-stack">
-  <h2>Technology Stack ⚙️</h2>
-  <div align="center">
-    <h3>SellerSmart Web App Features</h3>
-    <div class="tech-badges">
-      <code>React</code> · <code>TypeScript</code> · <code>Vite</code> · <code>shadcn-ui</code> · <code>Tailwind CSS</code>
-    </div>
-    <details>
-    <summary>🔍 Click to view full tech stack diagram</summary>
-    <img src="public/tech-stack.png" alt="Technology Stack">
-    </details>
-  </div>
-</section>
+1. Create content branch from `docs-production`
+2. Write markdown files in `/content` directory
+3. Run validation checks:
+   ```bash
+   npm run lint:content
+   ```
+4. Open PR against `docs-staging` branch
 
-<section id="getting-started">
-  <h2>Getting Started 🚦</h2>
-  <h3>Prerequisites</h3>
-  <ul>
-    <li>Node.js >= 14.x</li>
-    <li>npm >= 6.x</li>
-    <li>Git</li>
-  </ul>
-  <pre><code class="language-bash">
-# Clone repository
-gh repo clone sellersmart-docs
+## 🔗 Important Links
 
-# Navigate into the directory
-cd sellersmart-docs
+| Resource          | URL                                      |
+|--------------------|------------------------------------------|
+| Live Documentation| https://sellsmart-docs.vercel.app       |
+| API Reference     | https://api.sellsmart-docs.vercel.app   |
+| Style Guide       | /content/style-guide.md                |
+| Contribution Docs | /content/contributing.md               |
 
-# Install dependencies
-npm ci
+## Professional Links
 
-# Start development server
-npm run dev</code></pre>
-
-  <div class="setup-checklist">
-    <h4>First-Time Setup Checklist:</h4>
-    <ol>
-      <li>Configure API keys in <code>.env.local</code></li>
-      <li>Initialize database schema</li>
-      <li>Connect your Seller Central account</li>
-      <li>Run initial competitor analysis scan</li>
-    </ol>
-  </div>
-</section>
-
-<section id="success-stories">
-  <h2>Our Success Stories 📚</h2>
-  
-  <div class="case-study">
-    <h4>Case Study 1:</h4>
-    <p>🔼 <strong>238% Revenue Growth</strong> in 6 months for home goods seller</p>
-    <p>📈 <strong>#1 Best Seller Rank</strong> achieved in Kitchen category</p>
-  </div>
-
-  <div class="case-study">
-    <h4>Case Study 2:</h4>
-    <p>⏱️ <strong>70% Time Saved</strong> on inventory management</p>
-    <p>💰 <strong>$1.2M Annual Savings</strong> through supplier optimization</p>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Join the SellerSmart Revolution 🤝</h2>
-  
-  <div class="contact-info">
-    <h4>Ready to dominate Amazon?</h4>
-    <p>📞 <strong>Hotline:</strong> <a href="tel:+6309504469156">+63 09504469156</a></p>
-    <p>📧 <strong>Email:</strong> <a href="mailto:sellsmartdev@gmail.com">sellsmartdev@gmail.com</a></p>
-    <p>🌐 <strong>Live Chat:</strong> <a href="https://sellersmart-docs.vercel.app">sellersmart.vercel.app</a></p>
-  </div>
-
-  <div class="locations">
-    <h4>Office Locations:</h4>
-    <p>🌍 Manila · 🗽 New York · 🌉 San Francisco · 🗼 Tokyo</p>
-  </div>
-</section>
-
-<section id="contributing">
-  <h2>Contributing 🤝</h2>
-  <p>We welcome contributions from the community! Please follow these steps to contribute:</p>
-  <ol>
-    <li>Fork the repository</li>
-    <li>Create a new branch for your feature or bugfix</li>
-    <li>Commit your changes</li>
-    <li>Push your branch and create a pull request</li>
-  </ol>
-</section>
-
-<section id="license">
-  <h2>License 📜</h2>
-  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-</section>
-
-<footer>
-  <p><strong>© 2024 SellerSmart</strong></p>
-  <div class="doc-links">
-    <a href="#" class="doc-link">
-      <i class="fa-solid fa-book"></i>API Documentation
-    </a>
-    <a href="https://gitdocs.com/sellersmart-docs" class="doc-link">
-      <i class="fa-brands fa-gitdocs"></i>Gitdocs Repo
-    </a>
-    <a href="#" class="doc-link">
-      <i class="fa-solid fa-life-ring"></i>Support Portal
-    </a>
-  </div>
-  <p><em>Redefining Amazon Excellence</em> · <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
-  <img src="public/sellsmart-logo.svg" alt="SellerSmart Logo">
-</footer>
+| **Platform**       | **URL**                                                                 |
+|--------------------|-------------------------------------------------------------------------|
+| LinkedIn          | [View Profile](https://www.linkedin.com/in/wesleyquintero/)             |
+| Certifications    | [View Certifications](https://www.linkedin.com/in/wesleyquintero/details/certifications/) |
+| GitHub            | [View Repository](https://github.com/johnwesleyquintero)               |
+| Portfolio         | [View Portfolio](https://wesleyquintero.vercel.app/)                   |
+| Documentation     | [View Documentation](https://sellsmart-docs.vercel.app/)              |
+| Main Web App      | [View Main Web App](https://sellsmart-hub.vercel.app/)                |
+| DevFlowDB         | [View DevFlowDB](https://devflowdb.vercel.app/)                   |
