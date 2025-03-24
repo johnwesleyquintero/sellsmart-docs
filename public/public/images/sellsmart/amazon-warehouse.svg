@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3245ff">
+        <animate attributeName="stop-color" values="#3245ff; #bc52ee; #3245ff" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#bc52ee">
+        <animate attributeName="stop-color" values="#bc52ee; #3245ff; #bc52ee" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.3)" />
+    </filter>
+  </defs>
+
+  <rect x="5" y="15" width="30" height="20" fill="url(#mainGradient)" filter="url(#shadow)" rx="2" />
+  <path fill="#fff" fill-opacity="0.8" d="M10 18h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4zm-16 6h4v4h-4zm8 0h4v4h-4zm8 0h4v4h-4z" />
+  <path fill="none" stroke="#fff" stroke-width="2" d="M8 12l4-7 4 7m8-7l4 7-4 7" class="dynamic-line">
+    <animate attributeName="stroke-dasharray" values="0, 100; 100, 0" dur="2s" repeatCount="indefinite" />
+  </path>
+</svg>

@@ -1,0 +1,140 @@
+/* Theme Variables */
+:root {
+  --primary: #4FD1C5;
+  --primary-hover: #3245ff;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --text-primary: #1a365d;
+  --text-secondary: #0d1a2f;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --transition-base: 0.2s ease-in-out;
+}
+
+[data-theme="dark"] {
+  --primary: #3bf6ed;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background var(--transition-base);
+}
+
+.header {
+  text-align: center;
+  padding: var(--spacing-8) 0;
+  background: linear-gradient(135deg, var(--primary) 0%, #1a365d 100%);
+  color: white;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  margin-bottom: var(--spacing-8);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--spacing-4);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.tech-stack {
+  max-width: 800px;
+  margin: var(--spacing-8) auto;
+  padding: var(--spacing-6);
+}
+
+.badges {
+  display: flex;
+  gap: var(--spacing-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.badge {
+  transition: transform var(--transition-base);
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+}
+
+.preview-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-6);
+  padding: var(--spacing-8) 0;
+}
+
+.preview-image {
+  width: 100%;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  transition: transform var(--transition-base);
+}
+
+.preview-image:hover {
+  transform: scale(1.02);
+}
+
+/* Documentation Sections */
+.project-overview,
+.features,
+.getting-started {
+  max-width: 800px;
+  margin: var(--spacing-8) auto;
+  padding: 0 var(--spacing-4);
+}
+
+.features ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-6);
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  background: var(--bg-secondary);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Interactive Elements */
+.theme-switch {
+  position: fixed;
+  top: var(--spacing-4);
+  right: var(--spacing-4);
+  background: var(--bg-secondary);
+  border: none;
+  padding: 0.75rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all var(--transition-base);
+}
+
+.theme-switch:hover {
+  transform: rotate(180deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: var(--spacing-6) 0;
+  }
+  
+  .preview-images {
+    grid-template-columns: 1fr;
+  }
+}

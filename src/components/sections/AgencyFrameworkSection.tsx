@@ -195,8 +195,8 @@ const AgencyFrameworkSection = () => {
           <div className="bg-neutral-800/40 p-4 rounded-md border border-neutral-700">
             <h4 className="text-lg font-semibold mb-2">Website</h4>
             <p className="text-white/70 text-sm">
-              <a href="http://www.SellSmart.vercel.app" className="text-brand-400 hover:text-brand-300" target="_blank" rel="noopener noreferrer">
-                www.SellSmart.vercel.app
+              <a href="http://sellsmart-hub.vercel.app" className="text-brand-400 hover:text-brand-300" target="_blank" rel="noopener noreferrer">
+                sellsmart-hub.vercel.app
               </a>
             </p>
           </div>

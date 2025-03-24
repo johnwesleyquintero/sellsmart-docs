@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-data" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3 13v6h6v2H3a2 2 0 0 1-2-2v-6h2zm18-4v10h-4v2h4a2 2 0 0 0 2-2V9h-2zM11 3v14H7v2h8v-2h-4V3h2zm4 0v6h6V3h-6zm2 2h2v2h-2V5zM3 3v6h6V3H3zm2 2h2v2H5V5z"/>
+  </symbol>
+  <symbol id="icon-code" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M8 3l-6 8 6 8h2l-5-8 5-8H8zm8 0l6 8-6 8h-2l5-8-5-8h2zm-4 2l-3 4 3 4 3-4-3-4z"/>
+  </symbol>
+  <symbol id="icon-ai" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12 2a2 2 0 0 1 2 2v2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3V4a2 2 0 0 1 2-2zm0 2h-1v3h2V4h-1zm-4 4v10h10V8H8zm4 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h2zm0 2h-2v2h2v-2z"/>
+  </symbol>
+<symbol id="icon-cloud" viewBox="0 0 24 24"><path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/></symbol>
+<symbol id="icon-rocket" viewBox="0 0 24 24"><path d="M12 2.5s4.5 2.04 4.5 10.5c0 2.49-1.04 5.57-3.62 7.2L12 22l-.88-1.8C7.54 18.57 6.5 15.49 6.5 13 6.5 4.54 12 2.5 12 2.5zm2 8.5h-4v2h4v-2zm-4 4h4v2h-4v-2z"/></symbol>
+</svg>

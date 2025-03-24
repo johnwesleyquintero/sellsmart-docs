@@ -1,0 +1,213 @@
+/* Database Interface Styles */
+.centered-container {
+  max-width: var(--max-width-container, 1200px);
+  margin: 0 auto;
+  padding: var(--spacing-8);
+}
+
+.db-interface {
+  margin-left: 240px;
+  padding: var(--spacing-8);
+  font-family: var(--font-family-base);
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+@media (max-width: 768px) {
+  .centered-container {
+    padding: var(--spacing-4);
+  }
+}
+
+.query-builder {
+  background: var(--gradient-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-primary);
+  padding: var(--spacing-6);
+  margin-bottom: var(--spacing-8);
+  border: 1px solid var(--color-border);
+}
+
+.table-select {
+  width: 100%;
+  padding: var(--spacing-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-4);
+  font-size: var(--font-size-base);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.query-input-container {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.query-input {
+  width: 100%;
+  min-height: 120px;
+  padding: var(--spacing-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-sm);
+  resize: vertical;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.run-query-btn,
+.export-btn {
+  padding: var(--spacing-3) var(--spacing-6);
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.run-query-btn {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-secondary);
+}
+
+.export-btn {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-secondary);
+}
+
+.query-stats {
+  display: flex;
+  gap: var(--spacing-6);
+  padding: var(--spacing-4);
+  background: var(--gradient-bg);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  border: 1px solid var(--color-border);
+}
+
+.results-container {
+  background: var(--surface-color);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.modern-table-container {
+  margin: var(--spacing-8) 0;
+  background: var(--surface-color);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.modern-table-container h3 {
+  padding: var(--spacing-4) var(--spacing-6);
+  margin: 0;
+  font-size: var(--font-size-lg);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.modern-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+  background: var(--surface-color);
+}
+
+.modern-data-table th,
+.modern-data-table td {
+  padding: var(--spacing-4) var(--spacing-6);
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.modern-data-table th {
+  background: var(--header-bg);
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.modern-data-table tr:hover {
+  background: var(--hover-bg);
+}
+
+.modern-data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.modern-data-table a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: var(--transition-base);
+}
+
+.modern-data-table a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-4);
+  background: var(--surface-color);
+}
+
+.error {
+  padding: var(--spacing-4);
+  color: var(--error);
+  background: var(--error-bg);
+  border-radius: var(--radius-md);
+  margin: var(--spacing-4) 0;
+}
+
+/* Dark mode support */
+[data-theme="dark"] {
+  --surface-color: #1a1a1a;
+  --border-color: #333;
+  --primary-color: #3399ff;
+  --secondary-color: #66bb6a;
+  --stats-bg: #242424;
+  --header-bg: #242424;
+  --hover-bg: #242424;
+  --error-color: #ff4d4d;
+  --error-bg: #2d2222;
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .db-interface {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .query-input {
+    min-height: 100px;
+  }
+
+  .query-stats {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .results-table {
+    font-size: 0.8rem;
+  }
+
+  .results-table th,
+  .results-table td {
+    padding: 0.5rem;
+  }
+}
